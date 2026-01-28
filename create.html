@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Account</title>
+  <link rel="stylesheet" href="./css/create.css">
+</head>
+<body>
+<div class="login-container">
+  <h2>Create Account</h2>
+  <input type="email" id="email" placeholder="Email" required />
+  <input type="email" id="confirmEmail" placeholder="Confirm Email" required onpaste="return false;" />
+  <input type="password" id="password" placeholder="Password" required />
+  <button onclick="createAccount()">Create Account</button>
+  <div id="error" class="error"></div>
+  <div class="subtext" style="margin-top: 1rem; font-size: 0.9rem; color: #ccc;">
+    Already have an account? <a href="/login.html" style="color: #00c853; text-decoration: none;">Log In</a>
+  </div>
+</div>
+
+<script src="./js/create.js"></script>
+</body>
+</html>

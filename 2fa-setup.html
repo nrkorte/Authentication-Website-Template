@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2FA Setup</title>
+  <link rel="stylesheet" href="./css/2fa-setup.css">
+</head>
+<body>
+
+  <div class="login-container">
+    <h2>Setup 2FA</h2>
+    <p>Scan the QR code using Google or Microsoft Authenticator.</p>
+
+    <img id="qr" src="" alt="QR Code" width="200" />
+
+    <input type="text" id="code" placeholder="Enter 6-digit code" />
+
+    <button onclick="verify2FA()" id="verifyBtn">Finish Setup</button>
+
+    <div id="error" class="error"></div>
+  </div>
+
+<script src="./js/2fa-setup.js"></script>
+
+</body>
+</html>
