@@ -33,7 +33,7 @@ sudo apt install -y nodejs
 
 sudo apt install -y tmux
 
-# --- Install Node.js dependencies from package.json ---
+# --- Install Node.js dependencies and set up database/server ---
 
 ### Run this inside the project backend directory
 
