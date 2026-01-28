@@ -1,24 +1,23 @@
-# Authentication-Website-Template
+# Authentication Website Template
 A website that sets up a user database and allows for a 2FA code to be added for security
-
 
 The database is very insecure, no cyber security practices are being used. Please be advised that if you use this template, you must secure the database thoroughly before making your site public facing.
 
 This site should be hosted on a linux server.
 
-Required:
+### Required:
 
 PostgreSQL
 
 Node.js
 
-Optional but recommended:
+### Optional but recommended:
 
 tmux
 
 # How to use
 
-Start by installing the packages above with:
+### Start by installing the packages above with:
 
 sudo apt update
 
@@ -30,7 +29,7 @@ curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 
 sudo apt install -y nodejs
 
-# Optional but recommended
+### Optional but recommended
 
 sudo apt install -y tmux
 
