@@ -41,13 +41,13 @@ sudo apt install -y tmux
 npm install
 
 
-Next, set up your database by using the bash script I created called setup_database.bash. Do this while in the backend directory:
+### Next, set up your database by using the bash script I created called setup_database.bash. Do this while in the backend directory:
 
 chmod +x ./setup_database.bash
 
 ./setup_database.bash
 
-Once that's done, you can start up a tmux client with:
+### Once that's done, you can start up a tmux client with:
 
 tmux new -s server
 
@@ -55,11 +55,11 @@ And connect to it with
 
 tmux attach -t server
 
-From there, start your server (make sure you are in the backend directory):
+### From there, start your server (make sure you are in the backend directory):
 
 node server.js
 
-To detach from the tmux client hit:
+### To detach from the tmux client hit:
 
 ctrl+b
 
