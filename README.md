@@ -16,7 +16,7 @@ tmux
 # How to use
 
 Start by installing the packages above with:
-# =============================================================================================================================
+
 sudo apt update
 sudo apt upgrade -y
 sudo apt install -y postgresql postgresql-contrib
@@ -29,7 +29,7 @@ sudo apt install -y tmux
 # --- Install Node.js dependencies from package.json ---
 ### Run this inside the project backend directory
 npm install
-# =============================================================================================================================
+
 
 Next, set up your database by using the bash script I created called setup_database.bash. Do this while in the backend directory:
 chmod +x ./setup_database.bash
